@@ -30,6 +30,10 @@
       background-size: cover;
 
   }
+  button {
+      background-color: #F93B2F!important;
+      color: #fff!important;
+  }
   .text-red {
       color: #F93B2F;
   }
@@ -84,7 +88,7 @@
 @media only screen and (max-width:800px){
     .search-bar-container {
         background-image: none;
-        background-color: blue;
+        background-color: rgb(56, 56, 63);
 
     }
     .movie-card-container {

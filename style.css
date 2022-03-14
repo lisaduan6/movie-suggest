@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+
+  }
+
+  header {
+    background-color: #F93B2F;
+    color: #fff!important;
+  }
+  header ul li {
+    color: #fff!important;
+  }
+
+ 
+  .search-bar-container {
+      color: #fff;
+      height:90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      background-image: url(./assets/images/hero.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+  .text-red {
+      color: #F93B2F;
+  }
+  .underline{
+      text-decoration: underline;
+      text-underline-offset: 15px;
+  }
+  .movies {
+      display: flex;
+      flex-direction: column;
+   
+      padding: 2rem 0 0 6rem ;
+  } 
+  .movie-card-container {
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0 5rem 0 5rem ;
+     
+      
+      }
+     
+
+  .movie-card {
+      border: 1px solid #fff;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    
+      text-align: center;
+      padding: 40px;
+      
+  }
+  .footer {
+      width: 100%;
+      background-color: black;
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+  }
+  .legal-container {
+      display: flex;
+      flex-direction: row;
+     
+  }
+  .legal-container > a {
+    text-decoration: none;
+  }
+@media only screen and (max-width:800px){
+    .search-bar-container {
+        background-image: none;
+        background-color: blue;
+
+    }
+    .movie-card-container {
+        flex-direction: column;
+    }
+    .legal-container {
+        flex-direction: column;
+
+    }
+    .icon {
+        display: none;
+    }
+
+    
+}

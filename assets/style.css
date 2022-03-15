@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+/* Header styling */
+header {
+    /* Header color properties */
+    background-color: #F93B2F;
+    color: #ffffff;
+    height: 4rem;
+    width: 100%;
+
+}
+h1.logo-text {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.movie-summary > h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+div.movie-container {
+    width: 90%;
+    padding-bottom: 12rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.movie-card > * {
+    margin-top: 2rem;
+}
+
+
+.image-container {
+    width: 100%;
+}
+img.movie-image {
+    width: 100%;
+}
+.return-home {
+    align-self: flex-start;
+}
+
+button.back-btn {
+    background-color: #F93B2F;
+    color: #ffffff; 
+    font-size: 1.25rem;
+    
+}
+.movie-summary {
+    width: 90%;
+}
+
+/* Give p elements under */
+.movie-summary p {
+    color: #847b7b;
+}
+button.social-link {
+    background-color: white;
+    color: #F93B2F;
+    border-radius: 3rem;
+
+    margin-right: 1rem;
+   
+   
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+}
+.legal-container > h4 {
+    font-size:1rem;
+    font-weight: 400;
+}
+
+.legal-container > a {
+    color: #F93B2F;
+}
+
+
+
+.social-icons > a {
+    padding: 0 1rem;
+}
+
+@media  only screen and (min-width: 700px) {
+  
+    header{
+        height: 3rem;
+    }
+    main {
+        height: 100vh;
+    }
+    div.movie-container {
+        width: 70%;
+        padding-bottom: 4rem;
+    
+    }
+    div.movie-card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .image-container {
+        width: 100%;
+    }
+    .movie-summary {
+        padding-left: 2rem;
+    }
+
+    .movie-info {
+        margin-top: 1rem;
+    }
+
+    footer.legal-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .legal-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+div.legal-container > a{
+    padding-left: 1rem;
+}
+
